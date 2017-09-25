@@ -10,6 +10,9 @@ public class AddressBook {
 		
 		AddressBook book = new AddressBook();
 		System.out.println("book created");
+		BuddyInfo test = new BuddyInfo();
+		book.addBuddy(test);
+		book.removeBuddy(test);
 
 	}
 	
