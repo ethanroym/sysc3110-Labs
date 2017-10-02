@@ -34,6 +34,17 @@ public class BuddyInfo {
 	public void setPhoneNumber(int phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
+	
+	public BuddyInfo() {
+		this.name = null;
+		this.address = null;
+		this.phoneNumber = 0000000;
+	}
+	public BuddyInfo(String name, String address, int phoneNum) {
+		this.name = name;
+		this.address = address;
+		this.phoneNumber = phoneNum;
+	}
 
 
 	public static void main(String[] args) {
